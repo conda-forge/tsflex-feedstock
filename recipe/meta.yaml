@@ -48,5 +48,6 @@ about:
 
 extra:
   recipe-maintainers:
+    - soeptas
     - jvdd
     - jonasvdd
