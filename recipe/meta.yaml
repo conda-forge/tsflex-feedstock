@@ -30,9 +30,9 @@ requirements:
     - tqdm >=4.60.0,<5.0.0
 
 test:
-  imports:
-    - tsflex
-    - tsflex.chunking
+#   imports:
+#     - tsflex
+#     - tsflex.chunking
   requires:
     - pip
   commands:
