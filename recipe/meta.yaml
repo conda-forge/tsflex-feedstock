@@ -1,5 +1,5 @@
 {% set name = "tsflex" %}
-{% set version = "0.2.2" %}
+{% set version = "0.2.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tsflex-{{ version }}.tar.gz
-  sha256: efa27e9e3611ff99bdc98d6938fb48484704bcd2d01b258b12dfd96e417a05e3
+  sha256: 8b0b793ecf1c70f37985bed6a025a214841c5d1729089990c51f6c2e55ea7eb0
 
 build:
   number: 0
@@ -19,14 +19,14 @@ requirements:
   host:
     - pip
     - poetry
-    - python >=3.6,<4.0
+    - python >=3.6,<3.10
   run:
     - dill >=0.3.3,<0.4.0
     - fastparquet >=0.6.3,<0.7.0
     - numpy >=1.19.0,<2.0.0
     - pandas >=1.2.3,<2.0.0
     - pathos >=0.2.7,<0.3.0
-    - python >=3.6,<4.0
+    - python >=3.6,<3.10
     - tqdm >=4.60.0,<5.0.0
 
 test:
