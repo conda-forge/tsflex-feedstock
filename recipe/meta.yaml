@@ -19,14 +19,14 @@ requirements:
   host:
     - pip
     - poetry
-    - python >=3.6,<4.0
+    - python >=3.6,<3.10
   run:
     - dill >=0.3.3,<0.4.0
     - fastparquet >=0.6.3,<0.7.0
     - numpy >=1.19.0,<2.0.0
     - pandas >=1.2.3,<2.0.0
     - pathos >=0.2.7,<0.3.0
-    - python >=3.6,<4.0
+    - python >=3.6,<3.10
     - tqdm >=4.60.0,<5.0.0
 
 test:
