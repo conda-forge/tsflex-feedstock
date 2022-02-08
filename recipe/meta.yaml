@@ -1,5 +1,5 @@
 {% set name = "tsflex" %}
-{% set version = "0.2.3.4" %}
+{% set version = "0.2.3.6" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tsflex-{{ version }}.tar.gz
-  sha256: f311b2b3b7b489c5ce5d3709cc5c663736836b848566d782fba887fc6ac5262d
+  sha256: d304aad69ac0be732af351904a96cd0fcc433561bed42f6d95a2ab5ed497487e
 
 build:
   number: 0
